@@ -1,16 +1,16 @@
 import React from "react";
 import "./Home.css";
-import home1 from "../../Assets/home1.png";
-import home4 from "../../Assets/home4.png";
-import home14 from "../../Assets/home14.png";
-import home10 from "../../Assets/home10.png";
-import home3 from "../../Assets/home3.png";
-import home12 from "../../Assets/home12.png";
-import home5 from "../../Assets/home5.png";
-import home6 from "../../Assets/home6.png";
-import home7 from "../../Assets/home7.png";
-import home8 from "../../Assets/home8.png";
-import home9 from "../../Assets/home9.png";
+import home1 from "../../assets/home1.png";
+import home4 from "../../assets/home4.png";
+import home14 from "../../assets/home14.png";
+import home10 from "../../assets/home10.png";
+import home3 from "../../assets/home3.png";
+import home12 from "../../assets/home12.png";
+import home5 from "../../assets/home5.png";
+import home6 from "../../assets/home6.png";
+import home7 from "../../assets/home7.png";
+import home8 from "../../assets/home8.png";
+import home9 from "../../assets/home9.png";
 
 const Home = () => {
   return (
