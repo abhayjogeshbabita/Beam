@@ -1,0 +1,41 @@
+.notification-wrapper {
+  width: calc(100% - 40px);
+  max-width: 1200px;
+  margin: 20px auto;
+  box-sizing: border-box;
+}
+
+.notification {
+  background-color: #f1f0ed;
+  color: #ff66c4;
+  padding: 10px 16px;
+  text-align: center;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+}
+
+.notification-message {
+  margin: 0;
+  font-size: inherit;
+  font-weight: inherit;
+  letter-spacing: inherit;
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  .notification {
+    font-size: 0.7rem;
+    padding: 8px 12px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .notification {
+    font-size: 0.65rem;
+    padding: 6px 10px;
+  }
+}

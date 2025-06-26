@@ -1,0 +1,144 @@
+/* Outer container with white space on both sides */
+.contact-container {
+  background-color: #F1F0ED;
+  width: calc(100% - 50px);
+  max-width: 1200px;
+  margin: 30px auto;
+  padding: 60px 0;
+  box-sizing: border-box;
+  border-radius: 16px;
+}
+
+/* Inner wrapper with side padding */
+.contact-inner {
+  width: 100%;
+  padding: 0 280px;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  box-sizing: border-box;
+}
+
+/* Text block */
+.contact-text {
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #e91e63;
+  font-size: 28px;
+  margin-bottom: 12px;
+}
+
+.subtext {
+  color: #e91e63;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 12px;
+}
+
+.required-note {
+  font-size: 13px;
+  color: #e91e63;
+}
+
+/* Form layout */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+  padding: 14px 16px;
+  font-size: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+/* Input fields */
+.contact-form input,
+.contact-form textarea {
+  border: 1px solid #ccc;
+  background-color: #fff;
+  resize: vertical;
+}
+
+.contact-form textarea {
+  height: 130px;
+}
+
+/* Submit button */
+.contact-form button {
+  background-color: #e91e63;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #d81b60;
+}
+
+/* Disclaimer */
+.disclaimer {
+  font-size: 11px;
+  text-align: center;
+  color: #999;
+  margin-top: 32px;
+  line-height: 1.4;
+}
+
+.disclaimer a {
+  color: #e91e63;
+  text-decoration: underline;
+}
+
+/* Tablet screens */
+@media (max-width: 992px) {
+  h2 {
+    font-size: 24px;
+  }
+
+  .subtext {
+    font-size: 15px;
+  }
+}
+
+/* Mobile screens */
+@media (max-width: 600px) {
+  .contact-container {
+    width: calc(100% - 24px);
+    padding: 40px 0;
+    border-radius: 0 0 16px 16px;
+    margin: 40px auto;
+  }
+
+  .contact-inner {
+    padding: 0 12px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  .subtext {
+    font-size: 13.5px;
+  }
+
+  .contact-form input,
+  .contact-form textarea,
+  .contact-form button {
+    font-size: 14px;
+    padding: 12px 14px;
+  }
+
+  .disclaimer {
+    font-size: 10px;
+  }
+}
